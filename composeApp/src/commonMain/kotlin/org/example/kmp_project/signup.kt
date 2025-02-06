@@ -55,7 +55,7 @@ fun SignUpScreen(function: () -> Unit) {
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "Select your role:",
+            text = "Select your role",
             fontSize = 16.sp,
             fontWeight = FontWeight.Medium,
             color = Color.Black
