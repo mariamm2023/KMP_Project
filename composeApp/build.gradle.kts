@@ -71,7 +71,27 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.material3.android)
+    implementation(libs.androidx.navigation.runtime.android)
+    implementation(libs.androidx.animation.core.lint)
+    implementation(libs.androidx.animation.lint)
+    implementation(libs.androidx.material3.lint)
+    implementation(libs.androidx.navigation.runtime.ktx)
     debugImplementation(compose.uiTooling)
+    implementation("androidx.compose.ui:ui:1.5.0")
+    implementation("androidx.compose.foundation:foundation:1.5.0")
+    implementation("androidx.compose.material:material:1.5.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.0")
+    implementation("androidx.compose.runtime:runtime:1.5.0")
+    implementation ("androidx.compose.material:material-icons-extended:1.5.1")
+    implementation ("androidx.compose.ui:ui-tooling-preview:1.4.0")
+
+    implementation ("androidx.navigation:navigation-compose:2.7.0" ) // أو الإصدار الأخير
+
+
+
+
 }
 
 compose.desktop {
